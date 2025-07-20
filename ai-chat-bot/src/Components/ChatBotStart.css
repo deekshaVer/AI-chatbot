@@ -1,0 +1,28 @@
+.start-page {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.start-page-btn {
+  width: 35rem;
+  height: 15rem;
+  background: linear-gradient(135deg, #f42f5f, #8e25bf);
+  border-radius: none;
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: #eee;
+  font-size: 7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.start-page-btn:active {
+  transform: scale(0.98);
+}
